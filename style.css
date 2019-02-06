@@ -1,0 +1,229 @@
+
+section
+{
+    background: url("img/back.jpg")  no-repeat center;
+    background-size: cover;   
+    width: 100%;
+    height:auto;
+}
+.navbar
+{
+    border-radius: 3px;
+    background-color: transparent;
+    margin-right: 10px;
+}
+.clearfix
+{
+    height: 30px;
+}
+.navbar-nav
+{
+    border-radius: 3px;
+    background-color: white;
+    filter: opacity(0.8);
+    margin-right: 10px;
+}/*
+.scrolled-nav
+{
+        position: fixed;
+        width: 100%;
+        top: 0;
+        background-color: rgb(184, 125, 37);
+}*/
+
+@media screen and (max-width: 757px)
+{
+  .navbar-nav li a
+  {
+    font-size: 9px;
+  }
+}
+.header
+{
+    color: white;
+}
+.form-group
+{
+   display: flex;
+}
+.form-group .form-control
+{
+    background-color:#D1D1D1;
+    border-radius: 10px 0px 0px 10px;
+}
+#button1
+{
+    background-color: #580A40;
+    color: white;
+}
+.column1
+{
+    height:40px;   
+}
+.column2
+{
+    height:40px;
+}
+.column
+{
+    background-color: #580A40;
+    border-radius: 8px;
+    width: 100%;
+    height: 200px;
+    display: inline-block;
+    color: white;
+}
+#telephone
+{
+    font-size: 22px;
+    background-color: #580A40;
+    filter: opacity(0.8);
+}
+#mobile
+{
+    font-size: 22px;
+    background-color: #580A40;
+    filter: opacity(0.8);
+}
+#post
+{
+    font-size: 22px;
+    background-color: #580A40;
+    filter: opacity(0.8);
+}
+#address
+{
+    font-size: 18px;
+    background-color: #580A40;
+    filter: opacity(0.8);
+}
+.icon
+{
+    float: right;
+    font-size: 30px;
+    color:#FFB700;
+    padding-right: 3px;
+    padding-top: 3px;
+}
+#socialrow
+{
+    padding-right: 130px;
+}
+.mysocial
+{
+    font-size: 30px;
+}
+.icon1 
+{
+    padding: 10px;
+    background: transparent;
+    color:#FFB700;
+    border: 1px solid #D1D1D1;
+    border-radius: 0px 10px 10px 0px;
+    font-size: 30px;
+    text-align: center;
+}
+.footer
+{
+    width: 100%;
+    background-color: #858586;
+}
+
+.links ul li a
+{
+    text-decoration: none;
+    color: #fff;
+    transition: 0.8s;
+}
+
+.links ul li a:hover
+{
+    transition: 0.8s;
+    color:rgb(238,128,118);
+}
+
+.links ul li
+{
+    margin-top: 10px;
+    list-style: none;
+}
+
+.telephone div:hover
+{
+    transition: 0.8s;
+    color: rgb(238,128,118);
+}
+
+.telephone div
+{
+    margin-top: 20px;
+    color: #fff;
+    transition: 0.8s;
+}
+
+.socials span a i
+{
+    font-size: 50px;
+    color: white;
+    transition: 0.8s;
+}
+
+.socials span a i:hover
+{
+    transition: 0.8s;
+    color: rgb(238,128,118);
+}
+
+.bestmeet-footer-text
+{
+    color: #fff;
+    transition: 0.8s;
+}
+
+.bestmeet-footer-text:hover
+{
+    transition: 0.8s;
+    color: rgb(238,128,118);
+}
+
+.end-button a img
+{
+    animation-duration: 4s;
+    animation: MoveUpDown 1s linear infinite;
+    position: relative;
+}
+
+.copy-right
+{
+	background-color: #580A40;
+}
+
+@keyframes MoveUpDown {
+    0%, 100% {
+        bottom: 0;
+    }
+    50% {
+        bottom: 10px;
+    }
+}
+
+@media screen and (max-width: 425px)
+{
+	.copy-right
+	{
+		font-size: 10px;
+	}
+}
+@media screen and (max-width:500px)
+{
+    .column3    
+    {
+        height: 70px;
+    }
+    .column1
+    {
+        margin-top: 20px;
+    }
+}
+
+
